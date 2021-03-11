@@ -33,6 +33,40 @@ html{
     overflow: hidden;
 }
 
+/* Navbar */
+.navbar-icon{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.open-navbar-icon{
+    position: fixed;
+    top: 6.5rem;
+    left: 6.5rem;
+    z-index: 200;
+}
+
+.navbar-icon .line{
+    height: .2rem;
+    width: 3.5rem;
+    background-color: var(--light-grey-color);
+}
+
+.open-navbar-icon .line{
+    margin: .3rem 0;
+}
+
+.navbar-wrapper{
+    display: none;
+}
+
+
+/* End of Navbar */
+/* Header  */
 .header{
     width: 100%;
     height: calc(100vh - 7rem);
