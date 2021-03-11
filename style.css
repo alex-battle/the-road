@@ -209,6 +209,7 @@ html{
     position: relative;
     z-index: 10;
     opacity: .9;
+    transition: opacity .4s, transform .4s, box-shadow .4s;
 }
 
 .change > .front-side{
@@ -261,6 +262,7 @@ html{
     transform: translateZ(0) translateX(0);
     box-shadow: 0 .5rem 2rem #aaa;
     opacity: .9;
+    transition: opacity .4s, transform .4s, box-shadow .4s;
 }
 
 .tour-price{
