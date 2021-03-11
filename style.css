@@ -195,6 +195,7 @@ html{
 .card{
     width: 35rem;
     position: relative;
+    perspective: 150rem;
 }
 
 .card-image{
@@ -244,6 +245,7 @@ html{
     border-radius: .3rem;
     box-shadow: 0 2rem 4rem #777;
     flex-direction: column;
+    transform: translateZ(-5rem) translateX(3rem);
 }
 
 .tour-price{
