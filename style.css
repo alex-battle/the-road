@@ -374,7 +374,7 @@ html{
     text-align: center;
     background: url(images/contact-us-bg.png) center no-repeat;
     background-size: cover;
-    animation: contact-bg 10s infinite;
+    animation: contact-bg 15s infinite;
 }
 
 .contact-heading{
@@ -487,3 +487,36 @@ html{
     }
 }
 /* End of Contact */
+/* Footer */
+.footer{
+    background-color: var(--grey-color);
+    padding: 4rem 0 2rem 0;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: center;
+}
+.footer-link{
+    color: var(--white-color);
+    font-size: 2rem;
+    margin: 0 2rem;
+    background-color: var(--grey-color);
+    padding: .3rem 3rem;
+    letter-spacing: .3rem;
+    transition: all .2s;
+}
+
+.footer-link:hover{
+    box-shadow: 0 2rem 3rem #000;
+    transform: rotate(-10deg);
+}
+
+.footer-paragraph{
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+    margin-top: 5rem;
+}
+/* End of Footer */
